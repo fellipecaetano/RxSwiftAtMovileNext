@@ -20,9 +20,6 @@
 
 /* Begin PBXFileReference section */
 		B37C68312184E85600AB6819 /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
-		B38DC64A2184D7BF00A9DBE5 /* Events.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Events.playground; path = MovileNextMeetsRxSwift/Events.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		B38DC64B2184D9B100A9DBE5 /* State.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = State.playground; path = MovileNextMeetsRxSwift/State.playground; sourceTree = "<group>"; };
-		B38DC64C2184DA5900A9DBE5 /* Autocomplete.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Autocomplete.playground; path = MovileNextMeetsRxSwift/Autocomplete.playground; sourceTree = "<group>"; };
 		B3A121CB21839C80003BC438 /* MovileNextMeetsRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovileNextMeetsRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A121CE21839C80003BC438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3A121D521839C81003BC438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,9 +47,6 @@
 		B3A121C221839C80003BC438 = {
 			isa = PBXGroup;
 			children = (
-				B38DC64C2184DA5900A9DBE5 /* Autocomplete.playground */,
-				B38DC64B2184D9B100A9DBE5 /* State.playground */,
-				B38DC64A2184D7BF00A9DBE5 /* Events.playground */,
 				B3A121E121839E45003BC438 /* Cartfile */,
 				B3A121E021839CCE003BC438 /* Intro.playground */,
 				B3A121CD21839C80003BC438 /* MovileNextMeetsRxSwift */,
@@ -94,7 +88,6 @@
 				B3A121C721839C80003BC438 /* Sources */,
 				B3A121C821839C80003BC438 /* Frameworks */,
 				B3A121C921839C80003BC438 /* Resources */,
-				B3A121E72183A2AF003BC438 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,27 +143,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B3A121E72183A2AF003BC438 /* Copy Carthage Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-			);
-			name = "Copy Carthage Frameworks";
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3A121C721839C80003BC438 /* Sources */ = {
@@ -320,10 +292,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ58SUVWP4;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = MovileNextMeetsRxSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -342,10 +310,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ58SUVWP4;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = MovileNextMeetsRxSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

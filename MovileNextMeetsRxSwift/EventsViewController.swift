@@ -1,4 +1,5 @@
 import UIKit
+import RxSwift
 
 class EventsViewController : UIViewController {
     // Output
