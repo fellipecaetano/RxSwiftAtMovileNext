@@ -21,6 +21,8 @@ extension AppCoordinator: MenuViewControllerDelegate {
         switch demoKind {
         case .events:
             splitViewController.showDetailViewController(eventsViewController(), sender: nil)
+        case .state:
+            splitViewController.showDetailViewController(stateViewController(), sender: nil)
         default:
             return
         }
@@ -37,6 +39,12 @@ private extension AppCoordinator {
     func eventsViewController() -> EventsViewController {
         let detailViewController = EventsViewController()
         detailViewController.title = DemoKind.events.title
+        return detailViewController
+    }
+
+    func stateViewController() -> StateViewController {
+        let detailViewController = StateViewController()
+        detailViewController.title = DemoKind.state.title
         return detailViewController
     }
 }

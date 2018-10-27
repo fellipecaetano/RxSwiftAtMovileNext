@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B37C68322184E85600AB6819 /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C68312184E85600AB6819 /* StateViewController.swift */; };
 		B3A121CF21839C80003BC438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A121CE21839C80003BC438 /* AppDelegate.swift */; };
 		B3A121D621839C81003BC438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A121D521839C81003BC438 /* Assets.xcassets */; };
 		B3A121D921839C81003BC438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A121D721839C81003BC438 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B37C68312184E85600AB6819 /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
 		B38DC64A2184D7BF00A9DBE5 /* Events.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Events.playground; path = MovileNextMeetsRxSwift/Events.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B38DC64B2184D9B100A9DBE5 /* State.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = State.playground; path = MovileNextMeetsRxSwift/State.playground; sourceTree = "<group>"; };
 		B38DC64C2184DA5900A9DBE5 /* Autocomplete.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Autocomplete.playground; path = MovileNextMeetsRxSwift/Autocomplete.playground; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				B3C67C322184E321009D4ABF /* MenuViewController.swift */,
 				B3C67C342184E32D009D4ABF /* AppCoordinator.swift */,
 				B3C67C362184E36D009D4ABF /* DemoKind.swift */,
+				B37C68312184E85600AB6819 /* StateViewController.swift */,
 			);
 			path = MovileNextMeetsRxSwift;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37C68322184E85600AB6819 /* StateViewController.swift in Sources */,
 				B3C67C352184E32D009D4ABF /* AppCoordinator.swift in Sources */,
 				B3A121CF21839C80003BC438 /* AppDelegate.swift in Sources */,
 				B3C67C332184E321009D4ABF /* MenuViewController.swift in Sources */,
