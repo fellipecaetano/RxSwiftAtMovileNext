@@ -16,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B38DC64A2184D7BF00A9DBE5 /* Events.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Events.playground; path = MovileNextMeetsRxSwift/Events.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B38DC64B2184D9B100A9DBE5 /* State.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = State.playground; path = MovileNextMeetsRxSwift/State.playground; sourceTree = "<group>"; };
+		B38DC64C2184DA5900A9DBE5 /* Autocomplete.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Autocomplete.playground; path = MovileNextMeetsRxSwift/Autocomplete.playground; sourceTree = "<group>"; };
 		B3A121CB21839C80003BC438 /* MovileNextMeetsRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovileNextMeetsRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A121CE21839C80003BC438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3A121D021839C80003BC438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +26,7 @@
 		B3A121D521839C81003BC438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A121D821839C81003BC438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3A121DA21839C81003BC438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3A121E021839CCE003BC438 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = MovileNextMeetsRxSwift/Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B3A121E021839CCE003BC438 /* Intro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Intro.playground; path = MovileNextMeetsRxSwift/Intro.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3A121E121839E45003BC438 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,8 +44,11 @@
 		B3A121C221839C80003BC438 = {
 			isa = PBXGroup;
 			children = (
+				B38DC64C2184DA5900A9DBE5 /* Autocomplete.playground */,
+				B38DC64B2184D9B100A9DBE5 /* State.playground */,
+				B38DC64A2184D7BF00A9DBE5 /* Events.playground */,
 				B3A121E121839E45003BC438 /* Cartfile */,
-				B3A121E021839CCE003BC438 /* Playground.playground */,
+				B3A121E021839CCE003BC438 /* Intro.playground */,
 				B3A121CD21839C80003BC438 /* MovileNextMeetsRxSwift */,
 				B3A121CC21839C80003BC438 /* Products */,
 			);
