@@ -3,7 +3,7 @@ enum DemoKind {
     case state
     case autocomplete
 
-    static let all: [DemoKind] = [.events, .state, .autocomplete]
+    static let all: [DemoKind] = [.events, .state]
 
     var title: String {
         switch self {
