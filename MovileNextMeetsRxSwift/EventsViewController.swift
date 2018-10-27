@@ -1,7 +1,4 @@
-//: A UIKit based Playground for presenting user interface
-  
 import UIKit
-import PlaygroundSupport
 
 class EventsViewController : UIViewController {
     // Text field
@@ -126,5 +123,3 @@ class EventsViewController : UIViewController {
         slider.translatesAutoresizingMaskIntoConstraints = false
     }
 }
-// Present the view controller in the Live View window
-PlaygroundPage.current.liveView = EventsViewController()
